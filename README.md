@@ -1,5 +1,7 @@
 # Full-stack TypeScript Apps: Chatbot & Polls
 
+[![CI](https://github.com/kukkevin1-cmd/fullstack-ts-apps/actions/workflows/test.yml/badge.svg)](https://github.com/kukkevin1-cmd/fullstack-ts-apps/actions/workflows/test.yml)
+
 Two full-stack web apps built with **React + Node.js (Express) + TypeScript**, written in a
 **functional programming** style: pure functions, immutable data, and discriminated unions.
 Every piece of core logic is covered by **Mocha** unit tests.
@@ -11,6 +13,12 @@ rebuilt in 2026 after the original repo was lost.
 | --- | --- | --- |
 | [`chatbot/`](chatbot) | ELIZA-style therapist chatbot with pattern matching, per-session memory, and saved transcripts | 21 |
 | [`polls/`](polls) | Create timed polls, vote, and view results after the poll closes | 16 |
+
+## Screenshots
+
+| Chatbot | Polls: results |
+| --- | --- |
+| <img src="docs/chatbot.png" width="380" alt="Chatbot conversation"> | <img src="docs/polls-results.png" width="380" alt="Poll results"><br><img src="docs/polls-list.png" width="380" alt="Poll list"> |
 
 ## Design principles
 
@@ -36,6 +44,8 @@ npm run dev           # API on :8080, React client on http://localhost:5173
 npm test              # Mocha unit tests
 npm run build         # type-check + production build
 ```
+
+GitHub Actions runs type-check, tests, and a production build for both apps on every push.
 
 ## Tech stack
 

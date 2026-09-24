@@ -12,7 +12,7 @@ button.link { background: none; color: #4f46e5; padding: 0; text-decoration: und
 .card { background: white; border-radius: 10px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,.08); margin: 12px 0; }
 .error { color: #dc2626; }
 .muted { color: #6b7280; }
-.bubble { max-width: 75%; padding: 8px 12px; border-radius: 14px; margin: 6px 0; }
+.bubble { width: fit-content; max-width: 75%; padding: 8px 12px; border-radius: 14px; margin: 6px 0; }
 .bubble.user { margin-left: auto; background: #4f46e5; color: white; }
 .bubble.bot { background: #e5e7eb; }
 .bar { height: 10px; background: #c7d2fe; border-radius: 5px; }

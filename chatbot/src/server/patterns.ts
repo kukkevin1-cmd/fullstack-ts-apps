@@ -5,7 +5,7 @@ export const PATTERNS: ReadonlyArray<Pattern> = [
   {
     name: "hello",
     contents: ["hello", "*"],
-    responses: [["hi", "there!", "how", "are", "you", "feeling", "today?"]],
+    responses: [["hi", "there!", "How", "are", "you", "feeling", "today?"]],
   },
   {
     name: "hi",

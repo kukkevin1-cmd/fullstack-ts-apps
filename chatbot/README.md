@@ -13,6 +13,8 @@ You:  hmm
 Bot:  Earlier you said that your job is stressful.
 ```
 
+![Chatbot](../docs/chatbot.png)
+
 ## How it works
 
 - `src/server/list.ts` – immutable linked list (`nil` / `cons`) with recursive helpers.

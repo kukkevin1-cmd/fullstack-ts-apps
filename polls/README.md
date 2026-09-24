@@ -3,6 +3,10 @@
 Create a poll with a question, options, and a time limit. People vote while it's open
 (voting again replaces your earlier vote), and results appear with bar charts once it closes.
 
+| Voting | Results |
+| --- | --- |
+| ![Vote](../docs/polls-vote.png) | ![Results](../docs/polls-results.png) |
+
 ## How it works
 
 - `src/server/polls.ts` – pure, immutable domain logic:

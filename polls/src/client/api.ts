@@ -30,6 +30,7 @@ export const api = {
 /** Pure helper: "3 minutes left" / "closed 5 minutes ago". */
 export const describeTime = (endTime: number, now: number): string => {
   const mins = Math.round(Math.abs(endTime - now) / 60_000);
+  if (mins === 0) return endTime > now ? "closing now" : "closed just now";
   const unit = mins === 1 ? "minute" : "minutes";
   return endTime > now ? `${mins} ${unit} left` : `closed ${mins} ${unit} ago`;
 };
